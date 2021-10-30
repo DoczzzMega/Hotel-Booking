@@ -1,4 +1,4 @@
-.header {
+.navbar {
   background-color: #ffffff;
   &-top {
     display: flex;
@@ -11,8 +11,8 @@
     margin-right: auto;
     margin-left: 108px;
   }
-  &-menu {
-    background-color: #0a223d;
+  &-bottom {
+    background-color: $color-dark;
     padding-top: 31px;
     padding-bottom: 31px;
     &__list {
@@ -23,10 +23,13 @@
       font-weight: bold;
       font-size: 14px;
       line-height: 18px;
-      color: #FFFFFF;
+      color: #ffffff;
       text-transform: uppercase;
     }
   }
+}
+.logo {
+  width: 177px;
 }
 .search-form {
   position: relative;
