@@ -7,27 +7,8 @@
   .container {
     max-width: 720px;
   }
-  .navbar {
-    &-top {
-      padding: 30px 0;
-    }
-    &__search-form {
-      margin-left: auto;
-    }
-    &-bottom {
-      padding: 22px 0;
-      &__link {
-        font-size: 13px;
-      }
-    }
-  }
-  .search-form__input {
-    max-width: 300px;
-  }
-}
-@media (max-width: 768px) {
-  .container {
-    max-width: 570px;
+  .logo {
+    width: 132px;
   }
   .navbar {
     &-top {
@@ -44,4 +25,44 @@
       }
     }
   }
+  .search-form__input {
+    max-width: 300px;
+  }
+}
+@media (max-width: 768px) {
+  .container {
+    max-width: 570px;
+    width: 95%;
+  }
+  .navbar {
+    &__search-form,
+    &__user,
+    &-bottom {
+      display: none;
+    }
+    &__menu-button {
+    }
+  }
+  .menu-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 11px;
+    border: none;
+    background-color: #fff;
+    cursor: pointer;
+    &__line {
+      width: 16px;
+      height: 1px;
+      background-color: $color-text;
+    }
+  }
+}
+@media (max-width: 576px) {
+    
+}
+@media (max-width: 320px) {
+    .logo {
+        width: 99px;
+    }
 }
