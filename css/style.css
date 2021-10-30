@@ -76,7 +76,7 @@ body {
   color: #333333;
 }
 
-.container {
+._container {
   max-width: 1110px;
   margin: 0 auto;
 }
@@ -102,6 +102,29 @@ body {
 .header__search-form {
   margin-right: auto;
   margin-left: 108px;
+}
+
+.header-menu {
+  background-color: #0a223d;
+  padding-top: 31px;
+  padding-bottom: 31px;
+}
+
+.header-menu__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.header-menu__link {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 18px;
+  color: #FFFFFF;
+  text-transform: uppercase;
 }
 
 .search-form {

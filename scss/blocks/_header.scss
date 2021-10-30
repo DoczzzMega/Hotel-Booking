@@ -8,8 +8,24 @@
     padding-bottom: 40px;
   }
   &__search-form {
-      margin-right: auto;
-      margin-left: 108px;
+    margin-right: auto;
+    margin-left: 108px;
+  }
+  &-menu {
+    background-color: #0a223d;
+    padding-top: 31px;
+    padding-bottom: 31px;
+    &__list {
+      display: flex;
+      justify-content: space-between;
+    }
+    &__link {
+      font-weight: bold;
+      font-size: 14px;
+      line-height: 18px;
+      color: #FFFFFF;
+      text-transform: uppercase;
+    }
   }
 }
 .search-form {
