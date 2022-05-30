@@ -103,12 +103,12 @@ img {
   padding-bottom: 40px;
 }
 
-.navbar__search-form {
+.navbar-top__search-form {
   margin-right: auto;
   margin-left: 108px;
 }
 
-.navbar__menu-button {
+.navbar-top__menu-button {
   display: none;
 }
 
@@ -230,7 +230,10 @@ img {
     max-width: 570px;
     width: 95%;
   }
-  .navbar__search-form, .navbar__user, .navbar-bottom {
+  .navbar-top__search-form, .navbar-top__user {
+    display: none;
+  }
+  .navbar-bottom {
     display: none;
   }
   .menu-button {
@@ -244,7 +247,9 @@ img {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
-    height: 11px;
+    width: 31px;
+    height: 31px;
+    padding: 10px;
     border: none;
     background-color: #fff;
     cursor: pointer;
@@ -261,3 +266,4 @@ img {
     width: 99px;
   }
 }
+/*# sourceMappingURL=style.css.map */

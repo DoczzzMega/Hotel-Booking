@@ -34,20 +34,24 @@
     max-width: 570px;
     width: 95%;
   }
-  .navbar {
+  .navbar-top {
     &__search-form,
-    &__user,
-    &-bottom {
+    &__user {
       display: none;
     }
     &__menu-button {
     }
   }
+  .navbar-bottom {
+    display: none;
+  }
   .menu-button {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 11px;
+    width: 31px;
+    height: 31px;
+    padding: 10px;
     border: none;
     background-color: #fff;
     cursor: pointer;
