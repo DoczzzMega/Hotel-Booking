@@ -74,6 +74,7 @@ h1, h2, h3, h4, h5, h6 {
 body {
   font-family: 'Mulish', sans-serif;
   color: #333333;
+  background-color: #F5FAFE;
 }
 
 .container {
@@ -192,6 +193,58 @@ img {
   font-size: 14px;
   line-height: 18px;
   color: #333333;
+}
+
+.bread-crumb {
+  padding: 18px 0;
+}
+
+.bread-crumb__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.bread-crumb__item {
+  font-size: 10px;
+}
+
+.bread-crumb__item:not(:last-child)::after {
+  content: '/';
+  margin: 0 4px;
+}
+
+.bread-crumb__link {
+  color: inherit;
+}
+
+.hotel {
+  padding-top: 23px;
+  padding-bottom: 70px;
+}
+
+.hotel-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.hotel-name {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  text-transform: uppercase;
+  margin-top: 4px;
+}
+
+.stars {
+  height: 100%;
 }
 
 @media (max-width: 1200px) {
