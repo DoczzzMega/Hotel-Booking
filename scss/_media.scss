@@ -61,6 +61,33 @@
       background-color: $color-text;
     }
   }
+  .hotel {
+    &-name {
+      flex-basis: 100%;
+    }
+    &-wrapper {
+      justify-content: space-between;
+
+    }
+    &-info {
+      &__offer {
+        order: -1;
+        margin-left: 0;
+      }
+      &__rating {
+        display: none;
+      }
+      &__text {
+        flex-basis: 100%;
+      }
+      &__name {
+        margin-top: 10px;
+      }
+    }
+  }
+  .stars {
+    flex-basis: content;
+  }
 }
 @media (max-width: 576px) {
     .logo {
