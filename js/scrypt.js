@@ -5,7 +5,7 @@ const swiper = new Swiper('.swiper', {
     loop: true,
     autoplay: true,
     speed: 300,
-    allowTouchMove: true,
+    
   
     // Navigation arrows
     navigation: {
